@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "originno",
+    "packageName": "com.originno.raihan",
+    "packageFolder": "com/originno/raihan",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "732e3fe42aad81fab4f286027ff68bd76324e6ad",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
