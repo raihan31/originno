@@ -6,6 +6,13 @@
             "home": "Home",
             "entities": {
                 "main": "Entities",
+                "profile": "Profile",
+                "department": "Department",
+                "category": "Category",
+                "products": "Products",
+                "userReviews": "UserReviews",
+                "orders": "Orders",
+                "orderDetails": "OrderDetails",
                 "additionalEntity": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

@@ -1,0 +1,21 @@
+{
+    "originnoApp": {
+        "orderDetails" : {
+            "home": {
+                "title": "OrderDetailss",
+                "createLabel": "Créer un nouveau OrderDetails",
+                "createOrEditLabel": "Créer ou éditer un OrderDetails"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le OrderDetails {{ id }} ?"
+            },
+            "detail": {
+                "title": "OrderDetails"
+            },
+            "noOfProducts": "NoOfProducts",
+            "orders": "Orders",
+            "products": "Products"
+        }
+    }
+}
+

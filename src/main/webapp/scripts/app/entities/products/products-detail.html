@@ -1,0 +1,126 @@
+
+<div>
+    <h2><span translate="originnoApp.products.detail.title">Products</span> {{products.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.name">Name</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.name}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.logo">Logo</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.logo}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.descriptions">Descriptions</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.descriptions}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.measuredUnit">MeasuredUnit</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.measuredUnit}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.unitItem">UnitItem</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.unitItem}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.price">Price</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.price}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.availableItem">AvailableItem</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.availableItem}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.soldItem">SoldItem</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.soldItem}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.status">Status</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.status}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.sharedNo">SharedNo</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.sharedNo}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.createdAt">CreatedAt</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.createdAt | date:'medium'}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.updatedAt">UpdatedAt</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{products.updatedAt | date:'medium'}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.products.category">category</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="category.detail({id:products.categoryId})">{{products.categoryName}}</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

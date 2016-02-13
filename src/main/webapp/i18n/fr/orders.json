@@ -1,0 +1,32 @@
+{
+    "originnoApp": {
+        "orders" : {
+            "home": {
+                "title": "Orderss",
+                "createLabel": "Créer un nouveau Orders",
+                "createOrEditLabel": "Créer ou éditer un Orders"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Orders {{ id }} ?"
+            },
+            "detail": {
+                "title": "Orders"
+            },
+            "descriptions": "Descriptions",
+            "totalPrice": "TotalPrice",
+            "totalProducts": "TotalProducts",
+            "isViewed": "IsViewed",
+            "isDelivered": "IsDelivered",
+            "isReceived": "IsReceived",
+            "totalMoneyReceived": "TotalMoneyReceived",
+            "isPaid": "IsPaid",
+            "receivedDocument": "ReceivedDocument",
+            "isCanceled": "IsCanceled",
+            "isTaken": "IsTaken",
+            "createdAt": "CreatedAt",
+            "updatedAt": "UpdatedAt",
+            "ordersProducts": "OrdersProducts"
+        }
+    }
+}
+

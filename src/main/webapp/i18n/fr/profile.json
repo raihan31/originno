@@ -1,0 +1,26 @@
+{
+    "originnoApp": {
+        "profile" : {
+            "home": {
+                "title": "Profiles",
+                "createLabel": "Créer un nouveau Profile",
+                "createOrEditLabel": "Créer ou éditer un Profile"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Profile {{ id }} ?"
+            },
+            "detail": {
+                "title": "Profile"
+            },
+            "address": "Address",
+            "contactNo": "ContactNo",
+            "location": "Location",
+            "photo": "Photo",
+            "aboutMe": "AboutMe",
+            "createdAt": "CreatedAt",
+            "UpdatedAt": "UpdatedAt",
+            "user": "User"
+        }
+    }
+}
+

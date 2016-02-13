@@ -1,0 +1,36 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "logo",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "descriptions",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "createdAt",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "updatedAt",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20160212210121",
+    "dto": "mapstruct",
+    "pagination": "pager"
+}
