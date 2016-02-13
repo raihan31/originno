@@ -1,0 +1,31 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "products",
+            "otherEntityName": "products",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "name"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "photo",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "descriptions",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160213215619",
+    "dto": "mapstruct",
+    "pagination": "pagination"
+}

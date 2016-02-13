@@ -12,5 +12,8 @@
     <include file="classpath:config/liquibase/changelog/20160212212141_added_entity_UserReviews.xml" relativeToChangelogFile="false"/>
     <include file="classpath:config/liquibase/changelog/20160212215942_added_entity_Orders.xml" relativeToChangelogFile="false"/>
     <include file="classpath:config/liquibase/changelog/20160212221024_added_entity_OrderDetails.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160213215248_added_entity_DeptPromotionPhoto.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160213215435_added_entity_CatPromotionPhoto.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160213215619_added_entity_ProPromotionPhoto.xml" relativeToChangelogFile="false"/>
     <!-- JHipster will add liquibase changelogs here -->
 </databaseChangeLog>

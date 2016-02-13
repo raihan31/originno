@@ -1,0 +1,54 @@
+
+<div>
+    <h2><span translate="originnoApp.catPromotionPhoto.detail.title">CatPromotionPhoto</span> {{catPromotionPhoto.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="originnoApp.catPromotionPhoto.name">Name</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{catPromotionPhoto.name}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.catPromotionPhoto.photo">Photo</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{catPromotionPhoto.photo}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.catPromotionPhoto.descriptions">Descriptions</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{catPromotionPhoto.descriptions}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="originnoApp.catPromotionPhoto.category">category</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="category.detail({id:catPromotionPhoto.categoryId})">{{catPromotionPhoto.categoryName}}</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

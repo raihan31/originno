@@ -1,0 +1,22 @@
+{
+    "originnoApp": {
+        "catPromotionPhoto" : {
+            "home": {
+                "title": "CatPromotionPhotos",
+                "createLabel": "Créer un nouveau CatPromotionPhoto",
+                "createOrEditLabel": "Créer ou éditer un CatPromotionPhoto"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le CatPromotionPhoto {{ id }} ?"
+            },
+            "detail": {
+                "title": "CatPromotionPhoto"
+            },
+            "name": "Name",
+            "photo": "Photo",
+            "descriptions": "Descriptions",
+            "category": "Category"
+        }
+    }
+}
+

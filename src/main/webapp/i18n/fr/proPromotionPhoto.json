@@ -1,0 +1,22 @@
+{
+    "originnoApp": {
+        "proPromotionPhoto" : {
+            "home": {
+                "title": "ProPromotionPhotos",
+                "createLabel": "Créer un nouveau ProPromotionPhoto",
+                "createOrEditLabel": "Créer ou éditer un ProPromotionPhoto"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le ProPromotionPhoto {{ id }} ?"
+            },
+            "detail": {
+                "title": "ProPromotionPhoto"
+            },
+            "name": "Name",
+            "photo": "Photo",
+            "descriptions": "Descriptions",
+            "products": "Products"
+        }
+    }
+}
+

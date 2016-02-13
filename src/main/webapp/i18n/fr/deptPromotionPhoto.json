@@ -1,0 +1,22 @@
+{
+    "originnoApp": {
+        "deptPromotionPhoto" : {
+            "home": {
+                "title": "DeptPromotionPhotos",
+                "createLabel": "Créer un nouveau DeptPromotionPhoto",
+                "createOrEditLabel": "Créer ou éditer un DeptPromotionPhoto"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le DeptPromotionPhoto {{ id }} ?"
+            },
+            "detail": {
+                "title": "DeptPromotionPhoto"
+            },
+            "name": "Name",
+            "photo": "Photo",
+            "descriptions": "Descriptions",
+            "department": "Department"
+        }
+    }
+}
+
