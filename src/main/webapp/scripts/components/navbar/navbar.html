@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-inverse" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -7,17 +7,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#/"><span translate="global.title">jhipster</span> <span class="navbar-version">v{{VERSION}}</span></a>
+            <a class="navbar-brand" href="#/"><span translate="global.title">jhipster</span> <!--<span class="navbar-version">v{{VERSION}}</span>--></a>
         </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse" ng-switch="isAuthenticated()">
+        <div class="collapse navbar-collapse" id="navbar-collapse" has-authority="ROLE_ADMIN" ng-switch="isAuthenticated()">
             <ul class="nav navbar-nav navbar-right">
+                <li class="form-group">
+
+                </li>
                 <li ui-sref-active="active">
                     <a ui-sref="home" data-toggle="collapse" data-target=".navbar-collapse.in">
                         <span class="glyphicon glyphicon-home"></span>
                         <span class="hidden-sm" translate="global.menu.home">Home</span>
                     </a>
                 </li>
-                <li ui-sref-active="active" ng-switch-when="true" class="dropdown pointer">
+                <li ui-sref-active="active" has-authority="ROLE_ADMIN" ng-switch-when="true" class="dropdown pointer">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="">
                         <span>
                             <span class="glyphicon glyphicon-th-list"></span>
